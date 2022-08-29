@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table Colspan Rowspan</title>
+	<style type="text/css">
+		table, th,td{
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+	</style>
+</head>
+<body>
+	<h1>Table Colsan Example</h1>
+<!--Colspan Example-->
+	<table border="1">
+		<thead>
+			<tr>
+				<th>SN</th>
+				<th colspan="2">Name</th>
+				<th>Phone</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>Kapil</td>
+				<td>Sapkota</td>
+				<td>9818405073</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Nishant</td>
+				<td>Raut</td>
+				<td>9818885566</td>
+			</tr>
+		</tbody>
+	</table>
+	<h2>	Another Example </h2>
+	<!--Colspan Example-->
+<table border="1">
+		<thead>
+			<tr>
+				<th>SN</th>
+				<th>Name</th>
+				<th colspan="2">Class</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>Sth</td>
+				<td>X</td>
+				<td>A</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+	<!--Colspan Example-->
+
+
+<!--Row span Example-->
+<h2>Rowspan Example</h2>
+<table>
+	<thead>
+		<tr>
+			<th>SN</th>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>Name</th>
+			<td>Nishant raut</td>
+			<td>Kshitiz Dhungana</td>
+			<td>Abhisekh Humagain</td>
+		</tr>
+		<tr>
+			<th rowspan="2">Phone</th>
+			<td>98*******</td>
+			<td>97******</td>
+			<td>96******</td>
+		</tr>
+		<tr>
+			<td>9836*******</td>
+			<td>98125******</td>
+			<td>9832******</td>
+		</tr>
+	</tbody>
+</table>
+<!--Row span Example-->
+<h2>Another Rowspan Example</h2>
+<table>
+	<thead>
+		<tr>
+			<th rowspan="2">Day</th>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<td>22</td>
+			<td>23</td>
+			<td>24</td>
+			<td>25</td>
+			<td>26</td>
+			<td>27</td>
+		</tr>
+	</thead>
+</table>
+
+
+<h2>Rowspan and Colspan Example</h2>
+<table>
+	<thead>
+		<tr>
+			<th colspan="3">BCA</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td></td>
+			<td>Middle</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td rowspan="2">Row</td>
+			<td>Nishant</td>
+			<td>Back</td>
+		</tr>
+		<tr>
+			<td colspan="2">Last</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
